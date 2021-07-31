@@ -39,10 +39,6 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 80
-  name: nginx
-  port: 80 
-  protocol: TCP
-  targetPort: 8080
 
 ingress:
   enabled: false
